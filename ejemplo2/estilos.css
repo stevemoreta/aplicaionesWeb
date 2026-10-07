@@ -1,0 +1,31 @@
+.caja{
+    width: 400px;
+    padding: 50px;
+    background-color: #aad7f5;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* este media query se aplica a pantallas de 600px o menos */
+@media (max-width: 800px){
+    .caja{
+        width: 500px;
+        background-color: aqua;
+    }
+}
+
+
+@media (max-width: 600px){
+    .caja{
+        width: 400px;
+        background-color: yellow;
+    }
+}
+
+
+@media (max-width: 200px){
+    .caja{
+        width: 200px;
+        background-color: rgb(255, 30, 0);
+    }
+}

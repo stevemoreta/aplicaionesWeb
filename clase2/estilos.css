@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 1. Definir la cuadrícula en el contenedor padre */
+.contenedor {
+    display: grid;
+    /* 2 columnas: la 1ª fija de 250px (menú) y la 2ª ocupa el resto */
+    grid-template-columns: 250px 1fr;
+    /* 3 filas: encabezado (80px), contenido (1fr), pie (65px) */
+    grid-template-rows: 80px 1fr 65px;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* 2. Ubicación del Aside: Ocupa la columna 1 y las 3 filas */
+.menu {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    border: 3px solid green;
+    padding: 20px;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 3. Columna derecha: Header, Contenido y Footer */
+#header {
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px solid #007acc;
+    padding: 15px;
+}
+
+#main {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid #555;
+    padding: 15px;
+}
+
+#footer {
+    grid-column: 2;
+    grid-row: 3;
+    border: 2px solid #e67e22;
+    padding: 15px;
+}

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0fff8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 650px;
+    background-color: #ffffff;
+    border: 1px solid #444;
+    background-color: #a1ddec;
+}
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px solid #060606;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+.menu span {
+    color: #625e5e;
+}
+
+
+
+
+
+
+.seccion-central {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #444;
+    background-color: #f1fafa;
+}
+
+.seccion-central h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.seccion-central p {
+    font-style: italic;
+    color: #d6caca;
+    font-size: 15px;
+}
+
+
+
+
+
+.seccion-servicios {
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 1px solid #444;
+    background-color: #ceedcf;
+}
+
+.seccion-servicios h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cajas-servicios {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    border: 1px solid #444;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+
+
+.seccion-contacto {
+    text-align: center;
+    padding: 25px 20px;
+    border-bottom: 2px solid #444;
+    background-color: #e5d5e9;
+}
+
+.seccion-contacto h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #bae5f0;
+    border-top: 1px solid #eee4e4;
+}
